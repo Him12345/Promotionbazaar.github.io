@@ -358,3 +358,20 @@ transition-timing-function: ease-in-out;
               
   
   }
+
+
+  @media only screen  and (max-width: 600px) and (min-width: 320px) {
+    .About .about h1{
+        font-size: 1.8rem;
+    }
+    .popup .modal .modal-dialog .modal-content .modal-body .container-fluid a{
+        padding: 1rem;
+        border-radius: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: .7rem;
+      
+      
+      
+      }
+    }
