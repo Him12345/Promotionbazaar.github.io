@@ -614,3 +614,30 @@ transition-timing-function: ease-in-out;
   
   }
 /* Media Query---- */
+@media only screen  and (min-width: 315px){
+    .caption{
+        top: 12rem;
+        left: 0rem;
+        padding: 1rem;
+    
+    }
+    .caption h1{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2rem;
+        margin-left: 4rem;
+    
+    }
+    .caption p{
+       text-align: center;
+       font-size: 1rem;
+    }
+    
+    .caption button{
+        margin-top: 1rem;
+        margin-left: 6rem;
+    
+        
+    }
+  
+  }
+/* Media Query---- */
