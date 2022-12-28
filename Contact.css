@@ -301,3 +301,24 @@ transition-timing-function: ease-in-out;
   
   }
 /* Media Query---- */
+
+@media only screen  and (max-width: 600px) and (min-width: 320px) {
+   
+    .popup .modal .modal-dialog .modal-content .modal-body .container-fluid a{
+        padding: 1rem;
+        border-radius: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: .7rem;
+      
+      
+      
+      }
+      .worktogether button{
+        margin: 0;
+         padding-left: 1rem;
+         padding-right: 1rem;
+    
+        
+        }
+    }
