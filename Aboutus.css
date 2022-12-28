@@ -1,0 +1,360 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+
+   }
+
+   /* -----NAVBAR-STARTS------- */
+   .navbar{
+    background-image: linear-gradient(to right, #000000 , #2e2d2d);
+     
+    
+       }
+       .navbar .menu a{
+           font-size: 1.2rem;
+    
+           
+       }
+       .navbar .menu li a{
+    color: rgb(129, 129, 129);
+    
+    transition-property: color;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+    }
+    .navbar .menu li a:hover{
+    color: white;
+    
+    }
+       .menu li a:after{
+        background: #42b2af;
+    
+    
+    content: '';
+    width: 0px;
+    display: block;
+    margin: 0px auto;
+    height: 2px;
+    
+    
+    transition-property: width;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+    }
+    .menu li a:hover:after{
+    width: 45px;
+    
+    }
+    .navbar .button{
+    background: #42b2af;
+    
+    border-radius: .2rem;
+    transition-property: background;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+    
+    }
+    .navbar .button:hover{
+    background: black;
+    }
+    
+    /* -----NAVBAR ENDS------ */
+    
+
+
+    /* -----about us start-------- */
+    
+
+  .About .about{
+      background-size: cover;
+      min-height: 70vh;
+      position: relative;
+    
+      color: whitesmoke;
+      background-attachment: fixed;
+
+  }
+  .About .about h1{
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 2px rgb(0, 0, 0,.8);
+  }
+  .color-over{
+      position: absolute;
+      left: 0;
+      
+      width: 100%;
+      height: 100%;
+      font-family: 'Ubuntu', sans-serif;
+      background-color: #00000062;
+  }
+    /* -------about us ends-------- */
+
+
+    .head{
+        /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+        /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply; */
+  
+
+ background-image: linear-gradient(80deg, #29323c 0%, #485563 100%);
+
+ 
+        font-family: 'Ubuntu', sans-serif;
+        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.3);
+
+    }
+    .head h5{
+        font-size: 1.5rem;
+        /* color: #4f3f99; */
+        color: whitesmoke;
+        
+    }
+
+    .head p{
+        font-size: 1rem;
+        color: whitesmoke;
+    }
+
+
+    /* ------MISSION------ */
+    .mission .container{
+        background-image: url(./about1.jpg); 
+        background-size: cover; 
+        background-attachment: fixed;
+        border-bottom-right-radius: 1.5rem; 
+        border-bottom-left-radius: 1.5rem; 
+
+
+    }
+
+
+    .mission .container .row .col-md-4{
+        /* border: 2px solid red;  */
+         border-bottom-left-radius: 1.5rem; 
+         border-bottom-right-radius: 1.5rem; 
+
+         background: linear-gradient(to right, #42b2af, #434343);
+         box-shadow: 2px 2px 2px rgb(0, 0, 0,.5);
+    }
+
+    .mission .container .row .col-md-4 h4{
+        font-family: 'Ubuntu', sans-serif;
+        color: whitesmoke;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.589);
+        
+        
+    }
+    .mission .container .row .col-md-4  p{
+        color: whitesmoke;
+    }
+    /* --------MISSION--------- */
+
+
+    /* -------dream------ */
+    .dream h4::after{
+        background: #42b2af;
+        content: '';
+        width: 5rem;
+        display: block;
+        margin-left: 35rem;
+        height: 3px;
+        -radius: 100px;
+    
+    }
+   .dream h4{
+    font-family: 'Ubuntu', sans-serif;
+
+color: whitesmoke;
+
+   }
+   .dream i{
+       color: whitesmoke;
+       font-size: 1.5rem;
+   }
+
+   .dream p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+   }
+
+
+
+
+
+    /* --------dream--------- */
+
+    /* ------worktogether------ */
+
+    .worktogether{
+        /* background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+        background-blend-mode: screen; */
+color: white;
+        background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+    }
+    .worktogether h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+
+    }
+    .worktogether button{
+        background: #2ea5a1;
+        color: white;
+    border-radius: .3rem;
+    
+    transition-property: background;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);
+        
+    }
+    .worktogether button:hover{
+        background: #000000;
+        color: white;
+    }
+    .popup .modal .modal-dialog .modal-content .modal-body .container-fluid a{
+        text-decoration: none;
+        color: white;
+        background: #42b2af;
+        padding: 1rem;
+        border-radius: 1rem;
+        padding-left: 1.2rem;
+        border: none;
+        padding-right: 1.2rem;
+        box-shadow: 2px 2px 3px #473b7bc2;
+        transition-property: box-shadow;
+           transition-duration: .2s;
+           transition-timing-function: ease-in-out;
+      
+      
+      }
+      .popup .modal .modal-dialog .modal-content .modal-body .container-fluid a:hover{
+          box-shadow: 2px 2px 5px #473b7b;
+      
+      }
+
+
+
+
+
+
+
+    /* ------worktogether------ */
+
+
+
+
+    /* -----footer start----- */
+
+.footer .container-fluid{
+    background: black;
+    color: white;
+
+
+}
+.footer .container-fluid a{
+    color: rgb(129, 129, 129);
+    transition-property: color;
+transition-duration: .4s;
+transition-timing-function: ease-in-out;
+
+}
+.footer .container-fluid a:hover{
+    color:white;
+ 
+}
+.footer .container-fluid i{
+color: white;
+font-size: 1.3rem;
+transition-property: font-size;
+transition-duration: .4s;
+transition-timing-function: ease-in-out;
+}
+.footer .container-fluid .fa-facebook-official:hover{
+    cursor: pointer;
+   color:  #3b5998;
+   font-size: 2rem;
+}
+.footer .container-fluid .fa-linkedin-square:hover{
+    cursor: pointer;
+   color:  #0077b5;
+   font-size: 2rem;
+
+}
+.footer .container-fluid .fa-instagram:hover{
+    cursor: pointer;
+   color:  #E1306C;
+   font-size: 2rem;
+
+}
+.footer .container-fluid .fa-twitter-square:hover{
+    cursor: pointer;
+   color:  #00acee;
+   font-size: 2rem;
+
+}
+.footer .container-fluid button{
+    background: black;
+    color: white;
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow: .2rem .3rem .3rem white;
+    transition-property: font-size;
+transition-duration: .4s;
+transition-timing-function: ease-in-out;
+}
+.footer .container-fluid button:hover{
+    font-size: 2.5rem;
+    background-image: linear-gradient(to right,   #503f998c, #42b2af);
+
+}
+.navbar .drop1{
+    display: none;
+}
+
+
+/* ------footer ends------ */
+
+
+
+
+@media only screen  and (min-width:320px) and (max-width: 600px){
+   
+        .popup .modal .modal-dialog .modal-content .modal-body .container-fluid a{
+            padding: 1rem;
+            border-radius: 1rem;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            font-size: .9rem;
+          
+          
+          
+          }
+    
+          .About .about h1{
+            margin-left: .8rem;
+            text-align: center;
+            }
+     
+            .About .about h6{
+                display: none;
+            }
+
+            .navbar .drop{
+                display: none;
+            }
+            .navbar .drop1{
+                display: block;
+            }
+            .menu li a:after{
+                display: none;
+               }
+               .navbar .button button{
+                margin: auto;
+            }
+              
+  
+  }

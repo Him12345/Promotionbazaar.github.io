@@ -1,0 +1,616 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f7;
+    /* background-image: linear-gradient(to right, #202020 , #c7c7c7); */
+
+
+   }
+   /* -----NAVBAR-STARTS------- */
+   .navbar{
+background-image: linear-gradient(to right, #000000 , #2e2d2d);
+ 
+
+   }
+   .navbar .menu a{
+       font-size: 1.2rem;
+
+       
+   }
+   .navbar .menu li a{
+color: rgb(129, 129, 129);
+
+transition-property: color;
+transition-duration: .4s;
+transition-timing-function: ease-in-out;
+}
+.navbar .menu li a:hover{
+color: white;
+
+}
+   .menu li a:after{
+    background: #42b2af;
+
+
+content: '';
+width: 0px;
+display: block;
+margin: 0px auto;
+height: 2px;
+
+
+transition-property: width;
+transition-duration: .4s;
+transition-timing-function: ease-in-out;
+}
+.menu li a:hover:after{
+width: 45px;
+
+}
+
+
+
+.navbar .button{
+background: #42b2af;
+
+border-radius: .2rem;
+transition-property: background;
+transition-duration: .2s;
+transition-timing-function: ease-in;
+
+}
+.navbar .button:hover{
+background: black;
+}
+
+/* -----NAVBAR ENDS------ */
+
+
+
+/* ----BANNER--STARTS---- */
+.banner{
+ 
+position: relative;
+min-height: 100vh;
+background-color: rgba(0, 0, 0, 0.7);
+
+
+}
+.color-over{
+    position: absolute;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background: #2b3e4d3d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d7d2cc, #304352,); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.caption{
+    position: absolute;
+    top: 23rem;
+    left: 2rem;
+    color: rgb(255, 255, 255);
+
+}
+.caption h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+
+}
+.caption h1::after{
+    background: #ffffff;
+    content: '';
+    width: 10rem;
+    display: block;
+    margin-left: 0;
+    height: 3px;
+    -radius: 60px;
+
+}
+.caption button{
+   
+    background: #42b2af;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: .2rem;
+    transition-property: background;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+    box-shadow: .1rem .2rem .7rem rgba(0, 0, 0, 0.425);    
+    border-radius: .5rem;
+
+    
+}
+.caption button:hover{
+
+    background: black;
+    color: whitesmoke;
+}
+.caption p{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-shadow: .1rem .1rem .3rem rgba(255, 255, 255, 0.452);
+
+}
+
+.popup .modal .modal-dialog .modal-content .modal-body .container-fluid a{
+  text-decoration: none;
+  color: white;
+  background: #42b2af;
+  padding: 1rem;
+  border-radius: 1rem;
+  padding-left: 1.2rem;
+  border: none;
+  padding-right: 1.2rem;
+  box-shadow: 2px 2px 3px #473b7bc2;
+  transition-property: box-shadow;
+     transition-duration: .2s;
+     transition-timing-function: ease-in-out;
+
+
+}
+.popup .modal .modal-dialog .modal-content .modal-body .container-fluid a:hover{
+    box-shadow: 2px 2px 5px #473b7b;
+
+}
+
+
+/* -----BANNER ENDS------ */
+
+/* ---------About us- start------- */
+.aboutus .container{
+    background: #f3fbe9;
+    border-radius: 1.5rem;
+    /* border: 2px solid black; */
+     /* height: 65vh; */
+     /* background-image: linear-gradient(to bottom right,#42b2aee3, #080a0a44) */
+ }
+ .aboutus .container p{
+     font-weight: 600;
+ }
+ .aboutus .container img{
+    border-radius: 1.5rem;
+     transition-property: width , height;
+     transition-duration: .2s;
+     transition-timing-function: ease-in;
+ }
+
+ .aboutus .container button{
+     background: #42b2af;
+     color: whitesmoke;
+     transition-property: background;
+     transition-duration: .2s;
+     transition-timing-function: ease-in;
+ }
+ .aboutus .container button:hover{
+     background: #080a0a;
+     color: whitesmoke;
+ }
+
+ .aboutus .container h1{
+    /* border :2px solid red; */
+     padding-left: 3rem;
+     font-size: 3rem;
+     font-weight: 800;
+     color: black;
+     font-family: 'Ubuntu', sans-serif;
+ }
+
+ .aboutus .container h1::after{
+     background: #42b2af;
+     content: '';
+     width: 5rem;
+     display: block;
+     margin-left: 0;
+     height: 3px;
+     -radius: 100px;
+ 
+ }
+
+/* <!-- -----About us- ends--- */
+
+/* <!-- ------what we do--start--- */
+
+
+ .whatwedo .container h1{
+     padding-left: 3rem;
+     font-size: 3rem;
+     font-weight: 800;
+     
+ 
+     font-family: 'Ubuntu', sans-serif;
+ 
+ }
+ .whatwedo .container h1::after{
+     background: #42b2af;
+     content: '';
+     width: 10rem;
+     display: block;
+     margin-left: 0;
+     height: 3px;
+     -radius: 100px;
+ 
+ }
+ .whatwedo .container p{
+     padding-left: 3rem;
+     font-weight: 600;
+     color:rgb(0, 0, 0) ;
+     padding-top: 1rem;
+ 
+ 
+ }
+ .whatwedo .container i{
+     padding-left: 3rem;
+     font-size: 4rem;
+     padding-bottom: 1.5rem;
+     color:rgb(0, 0, 0) ;
+ 
+ }
+ .whatwedo .container h3{
+     padding-left: 3rem;
+     font-weight: bolder;
+     font-family: 'Ubuntu', sans-serif;
+     color:rgb(0, 0, 0) ;
+ 
+ 
+ }
+ .whatwedo .container a{
+     padding-left: 3rem;
+     color:#3ca7a3 ;
+     font-weight: 800;
+ 
+ 
+ }
+ 
+
+ .whatwedo .container .cards .card:hover{
+  background: rgb(146, 221, 217);
+ cursor: pointer;
+ }
+
+ .whatwedo .container button{
+    background: #42b2af;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 3.4rem;
+
+color: white;
+transition-property: background;
+transition-duration: .2s;
+transition-timing-function: ease-in;
+
+ }
+ .whatwedo .container button:hover{
+     background: black;
+ }
+ /* <!-- ------what we do--ends--- */
+ 
+ /* -----EXCELLENCE NUMBERS- START--- */
+    
+.number .container{
+    border: 2px solid black;
+     min-height: 50vh;
+ }
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ /* -----EXCELLENCE NUMBERS- ENDS--- */
+
+
+ /* -----our client--start----- */
+
+.clients .container-fluid{
+  
+    background: black;
+
+
+
+}
+.clients .container-fluid h3{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+.clients .container-fluid i{
+    font-size: 2.5rem;
+
+}
+
+
+
+
+/* -----our client--ends----- */
+
+
+
+/* our client slider--------- */
+.clients2 {
+    background: #000000;
+    display: none;
+}
+.slick-slide{
+    margin: 0 20px;
+}
+.slick-slide img{
+    width: 100%;
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide img{
+    display: block;
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+.copy{
+    padding-top: 250px;
+}
+
+
+
+
+
+/* our client slider--------- */
+
+
+ /* ------worktogether------ */
+
+ .worktogether{
+    /* background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen; */
+color: white;
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+}
+.worktogether h2{
+font-family: 'Ubuntu', sans-serif;
+color: white;
+
+}
+.worktogether button{
+    background: #2ea5a1;
+    color: white;
+border-radius: .3rem;
+
+transition-property: background;
+transition-duration: .5s;
+transition-timing-function: ease-in;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);
+    
+}
+.worktogether button:hover{
+    background: #000000;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* ------worktogether------ */
+
+/* -----footer start----- */
+
+.footer .container-fluid{
+    background: black;
+    color: white;
+
+
+}
+.footer .container-fluid a{
+    color: rgb(129, 129, 129);
+    transition-property: color;
+transition-duration: .4s;
+transition-timing-function: ease-in-out;
+
+}
+.footer .container-fluid a:hover{
+    color:white;
+ 
+}
+.footer .container-fluid i{
+color: white;
+font-size: 1.3rem;
+transition-property: font-size;
+transition-duration: .4s;
+transition-timing-function: ease-in-out;
+}
+.footer .container-fluid .fa-facebook-official:hover{
+    cursor: pointer;
+   color:  #3b5998;
+   font-size: 2rem;
+}
+.footer .container-fluid .fa-linkedin-square:hover{
+    cursor: pointer;
+   color:  #0077b5;
+   font-size: 2rem;
+
+}
+.footer .container-fluid .fa-instagram:hover{
+    cursor: pointer;
+   color:  #E1306C;
+   font-size: 2rem;
+
+}
+.footer .container-fluid .fa-twitter-square:hover{
+    cursor: pointer;
+   color:  #00acee;
+   font-size: 2rem;
+
+}
+.footer .container-fluid button{
+    background: black;
+    color: white;
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow: .2rem .3rem .3rem white;
+    transition-property: font-size;
+transition-duration: .4s;
+transition-timing-function: ease-in-out;
+}
+.footer .container-fluid button:hover{
+    font-size: 2.5rem;
+    background-image: linear-gradient(to right,   #503f998c, #42b2af);
+
+}
+.navbar .drop1{
+    display: none;
+}
+
+
+/* ------footer ends------ */
+
+
+
+
+/* Media Query---- */
+@media only screen  and (min-width:320px) and (max-width: 600px){
+    .caption{
+        top: 18rem;
+        left: 0rem;
+        padding: 1rem;
+    
+    }
+    .caption h1{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 3.2rem;
+    
+    }
+    .caption p{
+       text-align: center;
+    
+    }
+    
+    .caption button{
+        margin-top: 1.5rem;
+        margin-left: 8rem;
+    
+        
+    }
+    .whatwedo .container button{
+        padding: .5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-right: 3rem;
+    
+  
+     }
+
+     .clients .container-fluid h3{
+        font-size: 1rem;
+    }
+    .clients .container-fluid i{
+        font-size: 1.5rem;
+        padding: .5rem
+        ;
+
+    }
+    .banner{
+ 
+        position: relative;
+        min-height: 70vh;
+        
+        
+        }
+        .popup .modal .modal-dialog .modal-content .modal-body .container-fluid a{
+            padding: 1rem;
+            border-radius: 1rem;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            font-size: .9rem;
+          
+          
+          
+          }
+    
+          .menu li a:after{
+           display: none;
+       
+            }
+     
+            .whatwedo .container h1{
+                font-size: 2.3rem;
+                
+            
+            
+            }
+            .aboutus .container h1{
+                font-size: 2.3rem;
+
+                
+             }
+
+             .aboutus .container button{
+             
+                margin-left: 9rem;
+            }
+
+
+
+            .clients{
+                display: none;
+            }
+            .clients2 {
+                background: #000000;
+                display: block;
+            }
+            .clients2 h3{
+                font-size: 1rem;
+            }
+     
+            .navbar .drop{
+                display: none;
+            }
+            .navbar .drop1{
+                display: block;
+            }
+            .menu li a:after{
+             display: none;
+            }
+  .navbar .button button{
+    margin: auto;
+}
+  
+  }
+/* Media Query---- */
