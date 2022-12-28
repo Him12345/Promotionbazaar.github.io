@@ -619,24 +619,42 @@ transition-timing-function: ease-in-out;
         top: 12rem;
         left: 0rem;
         padding: 1rem;
+        text-align: center;
+    
+    }
+    .caption h1::after{
+      display: none;
     
     }
     .caption h1{
         font-family: 'Ubuntu', sans-serif;
         font-size: 2rem;
-        margin-left: 4rem;
+        /* margin-left: 4rem; */
     
     }
     .caption p{
-       text-align: center;
-       font-size: 1rem;
+       /* text-align: center; */
+       /* font-size: 1rem; */
     }
     
     .caption button{
-        margin-top: 1rem;
-        margin-left: 6rem;
-    
+       margin: 0;
+             
         
+    }
+    .aboutus .container button{
+       margin: auto;
+     }
+     .worktogether{
+      text-align: center;
+     
+    }
+    .worktogether button{
+margin: 0;
+padding-left: 1rem;
+padding-right: 1rem;
+
+    
     }
   
   }
