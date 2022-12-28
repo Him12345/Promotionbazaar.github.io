@@ -389,7 +389,7 @@ transition-timing-function: ease-in-out;
 
 @media only screen  and (max-width: 600px) and (min-width: 320px) {
     .banner .ourservice h1{
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     .popup .modal .modal-dialog .modal-content .modal-body .container-fluid a{
         padding: 1rem;
