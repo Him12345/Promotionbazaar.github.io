@@ -374,4 +374,11 @@ transition-timing-function: ease-in-out;
       
       
       }
+      .worktogether button{
+        margin: 0;
+         padding-left: 1rem;
+         padding-right: 1rem;
+    
+        
+        }
     }
