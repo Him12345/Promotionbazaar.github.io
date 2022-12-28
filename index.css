@@ -658,6 +658,17 @@ transition-timing-function: ease-in-out;
     .clients2 h3{
         font-size: .8rem;
     }
+    .popup .modal .modal-dialog .modal-content .modal-body .container-fluid a{
+        padding: 1rem;
+        border-radius: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: .8rem;
+      
+      
+      
+      }
+
   
   }
 /* Media Query---- */
