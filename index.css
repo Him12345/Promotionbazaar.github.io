@@ -98,8 +98,8 @@ background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 23rem;
     left: 2rem;
-    /* color: rgb(255, 255, 255); */
-    color: black;
+    color: rgb(255, 255, 255);
+    /* color: black; */
 
 
 }
@@ -109,8 +109,8 @@ background-color: rgba(0, 0, 0, 0.7);
 
 }
 .caption h1::after{
-    /* background: #ffffff; */
-    background: black;
+    background: #ffffff;
+    /* background: black; */
 
     content: '';
     width: 10rem;
