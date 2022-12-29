@@ -101,6 +101,7 @@ background-color: rgba(0, 0, 0, 0.7);
     /* color: rgb(255, 255, 255); */
     color: black;
 
+
 }
 .caption h1{
     font-family: 'Ubuntu', sans-serif;
@@ -110,6 +111,7 @@ background-color: rgba(0, 0, 0, 0.7);
 .caption h1::after{
     /* background: #ffffff; */
     background: black;
+    
     content: '';
     width: 10rem;
     display: block;
