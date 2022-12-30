@@ -226,6 +226,10 @@ transition-timing-function: ease-in-out;
         margin-left: 4rem;
     
     }
+    .social .click{
+        display: none;
+    }
+   
    
     .whatwedo .container h1{
         font-size: 2.3rem;
