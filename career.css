@@ -195,12 +195,6 @@ transition-timing-function: ease-in-out;
       
       }
 
-      .navbar .drop{
-        display: none;
-    }
-    .navbar .drop1{
-        display: block;
-    }
     .menu li a:after{
         display: none;
        }
