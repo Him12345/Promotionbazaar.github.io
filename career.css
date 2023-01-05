@@ -62,6 +62,9 @@ body{
     .navbar .button:hover{
     background: black;
     }
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
     
     /* -----NAVBAR ENDS------ */
 
@@ -147,6 +150,12 @@ transition-timing-function: ease-in-out;
 .footer .container-fluid .fa-instagram:hover{
     cursor: pointer;
    color:  #E1306C;
+   font-size: 2rem;
+
+}
+.footer .container-fluid .fa-twitter-square:hover{
+    cursor: pointer;
+   color:  #00acee;
    font-size: 2rem;
 
 }

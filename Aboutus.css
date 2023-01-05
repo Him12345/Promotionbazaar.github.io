@@ -3,7 +3,7 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    /* background: linear-gradient(60deg, #29323c 0%, #485563 100%); */
     overflow-x: hidden;
 
 
@@ -61,6 +61,9 @@ body{
     }
     .navbar .button:hover{
     background: black;
+    }
+    .dropdown:hover .dropdown-menu{
+        display: block;
     }
     
     /* -----NAVBAR ENDS------ */

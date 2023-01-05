@@ -65,6 +65,10 @@ transition-timing-function: ease-in;
 .navbar .button:hover{
 background: black;
 }
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
 
 /* -----NAVBAR ENDS------ */
 .social h3{

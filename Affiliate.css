@@ -65,6 +65,10 @@ transition-timing-function: ease-in;
 .navbar .button:hover{
 background: black;
 }
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
 
 /* -----NAVBAR ENDS------ */
 .social h3{
@@ -77,6 +81,51 @@ background: black;
 
 
 }
+ /* <!-- -------banner-start------ --> */
+
+
+ .banner .ourservice{
+        
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+
+}
+.banner .ourservice h1{
+text-shadow: .1rem .1rem .1rem white;
+color: white;
+font-family: 'Ubuntu', sans-serif;
+
+
+
+}
+
+.banner .ourservice{
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+  
+    color: whitesmoke;
+    background-attachment: fixed;
+
+}
+.banner .ourservice h1{
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0,.9);
+}
+.color-over{
+    position: absolute;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #00000062;
+}
+
+/* -----banner ends--------- */
 
 /* ----content----- */
 
@@ -87,6 +136,89 @@ background: black;
 
 
 /* ----content----- */
+
+/* ------nofoservices------ */
+.ourservices .noofservices h4{
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.ourservices .noofservices .ser1::after{
+    background:#42b2af;
+    content: '';
+    width: 5rem;
+    display: block;
+    margin-left:7rem;
+    height: 3px;
+    border-radius: 3rem;
+
+}
+.ourservices .noofservices .ser2::after{
+    background:#42b2af;
+    content: '';
+    width: 5rem;
+    display: block;
+    margin-left: 9rem;
+    height: 3px;
+    border-radius: 3rem;
+
+}
+.ourservices .noofservices .ser3::after{
+    background:#42b2af;
+    content: '';
+    width: 5rem;
+    display: block;
+    margin-left: 8.5rem;
+    height: 3px;
+    border-radius: 3rem;
+
+}
+.ourservices .noofservices .ser4::after{
+    background:#42b2af;
+    content: '';
+    width: 5rem;
+    display: block;
+    margin-left: 11rem;
+    height: 3px;
+    border-radius: 3rem;
+
+}
+.ourservices .noofservices p{
+    font-weight: 500;
+
+}
+
+
+.ourservices .noofservices{
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+
+}
+.ourservices .noofservices a{
+    text-decoration: none;
+    color: #42b2af;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+
+}
+.ourservices .noofservices a:hover{
+    color: whitesmoke;
+}
+.ourservices .noofservices i{
+    transition-property: color;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+}
+
+.ourservices .noofservices i:hover{
+    color: #42b2af;
+}
+/* ------nofoservices------ */
   /* ------worktogether------ */
 
   .worktogether{
@@ -256,6 +388,30 @@ transition-timing-function: ease-in-out;
        }
        .navbar .button button{
         margin: auto;
+    }
+    .banner .ourservice h1{
+        font-size: 2rem;
+    }
+    
+    .ourservices .noofservices .ser1::after{
+        background:#42b2af;
+        content: '';
+        width: 6rem;
+        display: block;
+        margin-left: 2.5rem;
+        height: 3px;
+        border-radius: 3rem;
+    
+    }
+    .ourservices .noofservices .ser2::after{
+        background:#42b2af;
+        content: '';
+        width: 6rem;
+        display: block;
+        margin-left: 4.5rem;
+        height: 3px;
+        border-radius: 3rem;
+    
     }
       
   }
