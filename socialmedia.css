@@ -412,5 +412,45 @@ transition-timing-function: ease-in-out;
     font-size: 2rem;
 }
 
+.ourservices .noofservices .ser1::after{
+    background:#42b2af;
+    content: '';
+    width: 5rem;
+    display: block;
+    margin-left: 5.5rem;
+    height: 3px;
+    border-radius: 3rem;
+
+}
+.ourservices .noofservices .ser2::after{
+    background:#42b2af;
+    content: '';
+    width: 5rem;
+    display: block;
+    margin-left: 2.5rem;
+    height: 3px;
+    border-radius: 3rem;
+
+}
+.ourservices .noofservices .ser3::after{
+    background:#42b2af;
+    content: '';
+    width: 5rem;
+    display: block;
+    margin-left: 3.5rem;
+    height: 3px;
+    border-radius: 3rem;
+
+}
+.ourservices .noofservices .ser4::after{
+    background:#42b2af;
+    content: '';
+    width: 5rem;
+    display: block;
+    margin-left:5.5rem;
+    height: 3px;
+    border-radius: 3rem;
+
+}
   }
 /* Media Query---- */
