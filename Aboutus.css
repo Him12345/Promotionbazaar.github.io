@@ -328,16 +328,16 @@ transition-timing-function: ease-in-out;
 
 @media only screen  and (min-width:320px) and (max-width: 600px){
    
-        .popup .modal .modal-dialog .modal-content .modal-body .container-fluid a{
-            padding: 1rem;
-            border-radius: 1rem;
-            padding-left: 1.2rem;
-            padding-right: 1.2rem;
-            font-size: .9rem;
-          
-          
-          
-          }
+    .popup .modal .modal-dialog .modal-content .modal-body .container-fluid a{
+        padding: 1rem;
+        border-radius: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: .6rem;
+      
+      
+      
+      }
     
           .About .about h1{
             margin-left: .8rem;
@@ -369,8 +369,7 @@ transition-timing-function: ease-in-out;
         border-radius: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
-        font-size: .5rem;
-
+        font-size: .6rem;
       
       
       
