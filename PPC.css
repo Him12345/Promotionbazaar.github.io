@@ -149,7 +149,7 @@ font-family: 'Ubuntu', sans-serif;
     content: '';
     width: 10rem;
     display: block;
-    margin-left: 1.5rem;
+    margin-left: 4rem;
     height: 3px;
     border-radius: 3rem;
 
@@ -419,6 +419,6 @@ transition-timing-function: ease-in-out;
         border-radius: 3rem;
     
     }
-      
+   
   }
 /* Media Query---- */
